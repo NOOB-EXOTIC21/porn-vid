@@ -1,6 +1,6 @@
 {
-  "name": "my-nodejs-app",
-  "description": "A sample Node.js application",
+  "name": "xgroovy-scraper",
+  "description": "A web scraper for xgroovy.com",
   "repository": "https://github.com/yourusername/your-repo",
   "env": {
     "NODE_ENV": {
