@@ -1,0 +1,25 @@
+{
+  "name": "my-nodejs-app",
+  "description": "A sample Node.js application",
+  "repository": "https://github.com/yourusername/your-repo",
+  "env": {
+    "NODE_ENV": {
+      "description": "Node.js environment",
+      "value": "production"
+    }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
