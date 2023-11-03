@@ -5,8 +5,8 @@ const cron = require('node-cron');
 const fs = require('fs');
 
 const app = express();
-const port = 5000;
-const PORT = 3000;
+const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const baseUrls = [
   'https://xgroovy.com/categories/young/',
   'https://xgroovy.com/',
